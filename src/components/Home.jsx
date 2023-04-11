@@ -1,9 +1,11 @@
 import React from 'react'
+import Cards from './Cards'
 
 export default function Home(props) {
-    console.log(props)
+    const {details} = props
+    console.log(details)
   return (
-    <div>
+    <>
         <h1 className='text-center m-3'>Kente Couture</h1>
         <p className='text-center lead'>
             Welcome to Kente Couture! Our e-commerce store is dedicated to bringing you the 
@@ -25,7 +27,26 @@ export default function Home(props) {
               clothing needs. We hope you find the perfect outfit that makes you feel confident 
               and proud of your heritage.
               </p>
+              <div>
+    <h1 className='text-center lead display-4 text-decoration-underline py-5'>Our Recipes</h1>
+
+      <div className='container-fluid '>
+        <div className='container '>
+          <div className='row '>
+
+       {details.map((detail,id) =>{
+        return(
+             <Cards 
+             />
+        )
+       })}
+      
+        </div>
+        </div>
+
+  </div>
 
     </div>
+    </>
   )
 }

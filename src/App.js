@@ -10,6 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import Layout from './components/Layout';
 import details from './data/details'
+import Cards from './components/Cards';
+
 // import About from './components/About'
 // import AllRecipes from './components/AllRecipes';
 // import Reviews from './components/Reviews';
@@ -25,7 +27,12 @@ import details from './data/details'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
-          <Route index element={<Home details={details}/>}/>
+         <Route index element={<Home 
+         details={details}>
+          <Cards />
+         </Home>}
+          />
+
           {/* <Route path='allrecipes'  element={ <AllRecipes details={details}/>}/>
           <Route path='reviews'  element={ <Reviews />}/> */}
           
