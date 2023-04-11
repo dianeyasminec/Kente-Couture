@@ -75,3 +75,10 @@ main {
   max-width: 1200px;
   margin: 40px auto;
 }
+img{
+  height: 300px;
+  
+}
+.card{
+  background-color: cornsilk;
+}

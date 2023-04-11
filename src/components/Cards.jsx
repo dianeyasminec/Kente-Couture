@@ -5,7 +5,7 @@ import React from 'react';
 export default function Cards(props) {
   const {
     title,
-    descriptions,
+    description,
     price,
     image,
     category,
@@ -25,17 +25,19 @@ export default function Cards(props) {
 
   return (
     <>
-      <div className='col-lg-4 col-md-6 col-sm-12 col-xl-4 col-xxl-4'>
+      <div className=' card col-lg-4 col-md-6 col-sm-12 col-xl-4 col-xxl-4'>
         <div className='card h-95 shadow rounded my-4'>
           <div className='card-body lead'>
-            <div className='d-flex justify-content-evenly '></div>
+            <div className='d-flex justify-content-center'>
 
-            <img src={image} alt={title} className='img'/>
-            <h3 className='card-title'>
+            <img src={image} alt={title} className='img '/>
+            </div>
+            <h3 className='card-title text-center'>
               {title} 
             </h3>
-            <p className=''> </p>
-            <p className=''> </p>
+            <p className='text-center'> {description}</p>
+            <p className='text-center'>{price} </p>
+            <p className='text-center'>{category} </p>
             {/* <p className=''> 
                 Category: {renderCategory(category)}
             </p> */}

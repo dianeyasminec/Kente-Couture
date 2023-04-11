@@ -14,7 +14,7 @@ export default function Layout() {
             style={{ maxHeight: '150px' }}
             navbarScroll
           >
-            <NavLink to="/" style={{ marginRight: '150px' }}>Home</NavLink>
+            <NavLink to="/" style={{ marginRight: '150px' }}></NavLink>
             {/* <NavLink to="Home" style={{ marginRight: '150px' }}>All Recipes</NavLink> */}
             {/* <NavLink to="reviews" style={{ marginRight: '150px' }}>Reviews</NavLink>
             <NavLink to="help" style={{ marginRight: '20px' }}>Help</NavLink> */}

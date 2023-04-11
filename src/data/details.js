@@ -1,21 +1,28 @@
-
+import  C1 from '../Images/C1.jpg';
+import  C2 from '../Images/C2.jpg';
+import  C3 from '../Images/C3.jpg';
+import  C4 from '../Images/C4.jpg';
+import  C6 from '../Images/C6.jpg';
+import  C7 from '../Images/C7.jpg';
+import  C8 from '../Images/C8.jpg';
+import  C9 from '../Images/C9.jpg';
+import C0 from '../Images/C0.jpg'
 const details = [
-    
     {
-        'id': 1,
-        'title': 'Model 1',
+        'id': 8,
+        'title': 'Model 8',
         'description': 'LIGHT JADE EMBROIDERED SLIP DRESS',
         'price': '$ 49.99',
         'category': '',
-        'image':'',    
+        'image':C8,    
      },
      {
-        'id': 2,
-        'title': 'Model 2',
+        'id': 6,
+        'title': 'Model 6',
         'description': 'LIGHT JADE EMBROIDERED SLIP DRESS',
         'price': '$ 49.99',
         'category': '',
-        'image':'',    
+        'image':C6,    
      },
      {
         'id': 3,
@@ -23,7 +30,15 @@ const details = [
         'description': 'LIGHT JADE EMBROIDERED SLIP DRESS',
         'price': '$ 49.99',
         'category': '',
-        'image':'',    
+        'image':C3,    
+     },
+     {
+        'id': 0,
+        'title': 'Model 9',
+        'description': 'LIGHT JADE EMBROIDERED SLIP DRESS',
+        'price': '$ 49.99',
+        'category': '',
+        'image':C0,    
      },
      {
         'id': 4,
@@ -31,23 +46,7 @@ const details = [
         'description': 'LIGHT JADE EMBROIDERED SLIP DRESS',
         'price': '$ 49.99',
         'category': '',
-        'image':'',    
-     },
-     {
-        'id': 5,
-        'title': 'Model 5',
-        'description': 'LIGHT JADE EMBROIDERED SLIP DRESS',
-        'price': '$ 49.99',
-        'category': '',
-        'image':'',    
-     },
-     {
-        'id': 6,
-        'title': 'Model 7',
-        'description': 'LIGHT JADE EMBROIDERED SLIP DRESS',
-        'price': '$ 49.99',
-        'category': '',
-        'image':'',    
+        'image':C4,    
      },
      {
         'id': 7,
@@ -55,16 +54,39 @@ const details = [
         'description': 'LIGHT JADE EMBROIDERED SLIP DRESS',
         'price': '$ 49.99',
         'category': '',
-        'image':'',    
+        'image':C7,    
+     },
+     
+     {
+        'id': 1,
+        'title': 'African Print Gweru Dress',
+        'description': "Chantelle is 5'2 and wearing a US6/UK10",
+        'price': '$ 49.99',
+        'category': '',
+        'image':C1,    
      },
      {
-        'id': 8,
-        'title': 'Model 8',
+        'id': 9,
+        'title': 'Model 9',
         'description': 'LIGHT JADE EMBROIDERED SLIP DRESS',
         'price': '$ 49.99',
         'category': '',
-        'image':'',    
+        'image':C9,    
      },
+     
+     {
+        'id': 2,
+        'title': 'Model 2',
+        'description': 'LIGHT JADE EMBROIDERED SLIP DRESS',
+        'price': '$ 49.99',
+        'category': '',
+        'image':C2,    
+     },
+    
+     
+     
+    
+    
 
 ]
 

@@ -28,7 +28,7 @@ export default function Home(props) {
               and proud of your heritage.
               </p>
               <div>
-    <h1 className='text-center lead display-4 text-decoration-underline py-5'>Our Recipes</h1>
+    <h1 className='text-center lead display-4 text-decoration-underline py-5'>Couture</h1>
 
       <div className='container-fluid '>
         <div className='container '>
@@ -36,7 +36,8 @@ export default function Home(props) {
 
        {details.map((detail,id) =>{
         return(
-             <Cards 
+             <Cards key={detail.id} price={detail.price} category={detail.category}
+             title={detail.title} description={detail.description} image={detail.image}
              />
         )
        })}
