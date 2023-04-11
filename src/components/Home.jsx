@@ -3,7 +3,7 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-        <h1 className='text-center '>Kente Couture</h1>
+        <h1 className='text-center m-3'>Kente Couture</h1>
         <p className='text-center lead'>
             Welcome to Kente Couture! Our e-commerce store is dedicated to bringing you the 
             finest and most diverse collection of African clothing available online. Our store 
