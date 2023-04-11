@@ -9,14 +9,14 @@ body {
   margin: 0;
   padding: 20px;
   font-family: 'Poppins', sans-serif;
-
-  color: #fff; /* Change color to white */
+  color: cornsilk; 
 }
 
 /* Remove margin and background-color from "*" selector */
 * {
   box-sizing: border-box;
   /* background-color: cornsilk; */
+  
 }
 
 /* Styles for desktop screens */
