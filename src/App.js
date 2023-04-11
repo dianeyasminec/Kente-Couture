@@ -9,6 +9,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import Layout from './components/Layout';
+import details from './data/details'
 // import About from './components/About'
 // import AllRecipes from './components/AllRecipes';
 // import Reviews from './components/Reviews';
@@ -17,14 +18,14 @@ import Layout from './components/Layout';
 // import Contact from './components/Contact';
 // import NotFound from './components/NotFound';
 // import ScrollToTop from './components/ScrollToTop';
-// import details from './data/details'
+
 
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
-          <Route index element={<Home/>}/>
+          <Route index element={<Home details={details}/>}/>
           {/* <Route path='allrecipes'  element={ <AllRecipes details={details}/>}/>
           <Route path='reviews'  element={ <Reviews />}/> */}
           

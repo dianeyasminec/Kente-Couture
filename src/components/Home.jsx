@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function Home() {
+export default function Home(props) {
+    console.log(props)
   return (
     <div>
         <h1 className='text-center m-3'>Kente Couture</h1>
