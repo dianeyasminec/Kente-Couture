@@ -19,6 +19,7 @@ export default function Layout() {
             {/* <NavLink to="reviews" style={{ marginRight: '150px' }}>Reviews</NavLink>
             <NavLink to="help" style={{ marginRight: '20px' }}>Help</NavLink> */}
           </Nav>
+          
         </nav>
       </header>
       <main>
